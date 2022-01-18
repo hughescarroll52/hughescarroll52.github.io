@@ -1,0 +1,62 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].rules[0].oneOf[1].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].rules[0].oneOf[1].use[2]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].rules[1].use[0]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].rules[1].use[1]!./src/theme/prd/styles.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://assets.lilheroes.io/fonts/Satoshi-Black.otf") format("opentype");
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://assets.lilheroes.io/fonts/Satoshi-Bold.otf") format("opentype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://assets.lilheroes.io/fonts/Satoshi-Medium.otf") format("opentype");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://assets.lilheroes.io/fonts/Satoshi-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("https://assets.lilheroes.io/fonts/Satoshi-Light.otf") format("opentype");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Comico";
+  src: url("https://assets.lilheroes.io/fonts/Comico-Regular.otf") format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Edgar Plans";
+  src: url("https://assets.lilheroes.io/fonts/EdgarPlans.otf") format("opentype");
+  font-weight: 400;
+}
+#video-edgar-plans-trailer > iframe {
+  border-radius: 1rem;
+}
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+  width: 100%;
+}
+body {
+  overflow-y: auto;
+  height: 100%;
+  margin: 0;
+  font-family: "Satoshi", "Helvetica Neue", arial;
+  color: #333333;
+  font-weight: 400;
+}
+.main {
+  width: 100%;
+  margin: auto;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}

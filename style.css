@@ -1,0 +1,235 @@
+.mint-area{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    /* width: 100; */
+    flex-direction: column;
+    z-index: 100;
+}
+input{
+    padding: 1rem 2rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    box-shadow: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  padding: .5rem;
+  margin: 0;
+  margin-left: .5rem;
+}
+:root {
+	--main-text-color: rgb(255, 255, 255);
+	--secondary-color: rgba(0, 0, 0, 0.60)
+}
+
+#background-video {
+	width: 100vw;
+	height: 100vh;
+	object-fit: cover;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1
+}
+
+.secondaryImage {
+	max-width: 80%;
+	position: fixed;
+	bottom: 0;
+	left: 10%;
+	display: block;
+	text-align: center;
+	z-index: -1
+}
+
+.secondaryImage img {
+	width: 100%
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+	color: #333;
+	text-shadow: none
+}
+
+body {
+	text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+	box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5)
+}
+
+.cover-container {
+	max-width: 42em
+}
+
+.nav-masthead .nav-link {
+	padding: .25rem 0;
+	font-weight: 700;
+	color: rgba(255, 255, 255, .5);
+	background-color: transparent;
+	border-bottom: .25rem solid transparent
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+	border-bottom-color: rgba(255, 255, 255, .25)
+}
+
+.nav-masthead .nav-link+.nav-link {
+	margin-left: 1rem
+}
+
+.nav-masthead .active {
+	color: #fff;
+	border-bottom-color: #fff
+}
+
+.bg-custom {
+	background-image: url(d4.html);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.logo {
+	margin-bottom: 5px!important
+}
+
+.logo img {
+	max-height: 50px
+}
+
+.social-links a {
+	font-size: 2em;
+	color: var(--main-text-color);
+	margin: 10px
+}
+
+.btn-rounded {
+	padding: 5px 20px;
+	height: 65px;
+	text-align: center;
+	line-height: 50px;
+	background-color: rgba(0, 0, 0, .7);
+	display: inline-block;
+	text-decoration: none;
+	border-radius: 50px;
+	font-family: yanone kaffeesatz, sans-serif;
+	color: #fff;
+	font-size: 27px;
+	border: 6px solid #03117e;
+	font-weight: 900;
+	transition: All .2s ease-in-out
+}
+
+.btn-rounded:hover {
+	text-decoration: none;
+	color: var(--main-text-color)
+}
+
+.btn-rounded.full {
+	background: linear-gradient(90deg, rgb(0 28 206) 0%, rgb(3 15 109) 100%);
+	transition: all .3s ease-in-out;
+	color: #000;
+	margin-top: 0!important
+}
+
+.btn-rounded.full:hover {
+	color: #fff
+}
+
+.minter {
+	border: 5px solid var(--main-text-color);
+	background: var(--secondary-color);
+	padding: 30px 3rem;
+    z-index: 100;
+    margin-bottom: 1rem;
+}
+
+@font-face {
+	font-family: bronova;
+	src: url(BronovaRegular.html) format('truetype')
+}
+
+.font {
+	font-family: yanone kaffeesatz, sans-serif
+}
+
+.minter .lead.first {
+	font-style: italic;
+	font-weight: 700
+
+}
+.lead{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.minter h1 {
+	color: var(--main-text-color)
+}
+
+.minter h1 span.outline {
+	color: red
+}
+
+.minter .nftSelector .amountSelector {
+	color: #fff;
+	font-size: 45px;
+	font-weight: 700;
+	cursor: pointer;
+	margin: 0 20px
+}
+
+.minter .nftSelector .count {
+	color: var(--main-text-color);
+	font-size: 45px;
+	font-weight: 700;
+	margin-top: 10px
+}
+
+.color {
+	color: var(--main-text-color)
+}
+
+.minter .basket {
+	margin-top: 20px;
+	font-weight: 700
+}
+
+.minter .cta .connect,
+.minter .cta .mint {
+	display: block;
+	margin: 0 auto;
+	width: 240px
+}
+
+.walletAddress {
+	color: var(--main-text-color);
+	font-weight: 700;
+	margin-top: 20px;
+	font-style: italic
+}
+
+#mintingModal {
+	background-color: rgb(0, 0, 0, .5)
+}
+
+#mintingModal .modal-content {
+	background-color: #000;
+	border: 5px solid var(--main-text-color)
+}
+
+#mintingModal .modal-content .info {
+	font-weight: 700;
+	color: var(--main-text-color)
+}
+
+.mmLink {
+	text-decoration: none
+}
